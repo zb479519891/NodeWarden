@@ -1,7 +1,7 @@
 import { Env, DEFAULT_DEV_SECRET } from '../types';
 import { StorageService } from '../services/storage';
 import { jsonResponse, errorResponse } from '../utils/response';
-import { handleRegisterPage } from './setupRegisterPage';
+import { handleRegisterPage } from './setupPage';
 
 type JwtSecretState = 'missing' | 'default' | 'too_short';
 
